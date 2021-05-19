@@ -60,6 +60,12 @@
             <version>${modelmapper.version}</version>
         </dependency>
 
+        <!-- Http client cache -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient-cache</artifactId>
+        </dependency>
+
         <!-- Spring Boot Test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
