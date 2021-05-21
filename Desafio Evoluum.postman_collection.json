@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "c183c844-2223-43bb-a5af-873695f3e1af",
+		"name": "Desafio Evoluum",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar Estados/Municipios- JSON",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/estados/municipios/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"estados",
+						"municipios",
+						"json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Estados/Municipios- CSV",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/estados/municipios/csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"estados",
+						"municipios",
+						"csv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar nome cidade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/estados/municipios/:nomeCidade",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"estados",
+						"municipios",
+						":nomeCidade"
+					],
+					"variable": [
+						{
+							"key": "nomeCidade",
+							"value": "teste"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
